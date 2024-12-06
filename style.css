@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merienda:wght@300..900&display=swap" rel="stylesheet');
+
+body{
+    body {
+        background: tan;
+    }    
+}
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Merienda';
+}
+
+.m-cnt{
+    display: flex;
+    position: fixed;
+    margin: auto;
+    /* background-color: black; */
+    inset: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-cnt.disnable{
+    display: none;
+}
+
+.main.dis{
+    display: none;
+}
+
+.main{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main > h2{
+    text-align: center;
+    display: flex;
+}
+
+.nut{
+    border: none;
+    width: 20%;
+    height: 10%;
+    background-color: aqua;
+    border-radius: 13px;
+}
+
+.cd{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+@media (max-width: 768px) {
+    
+.nut{
+    border: none;
+    width: 50%;
+    height: 20%;
+    background-color: aqua;
+    border-radius: 13px;
+}
+.meo{
+    top: 300px;
+    position: fixed;
+}
+
+}
+.meo{
+    top: 250px;
+    position: fixed;
+}
